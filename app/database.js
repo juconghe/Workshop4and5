@@ -23,7 +23,9 @@ var initialData = {
     // This is "you"!
     "4": {
       "_id": 4,
-      "fullName": "John Vilk", // ID of your feed. "feed": 4
+      "fullName": "John Vilk",
+       // ID of your feed.
+       "feed": 4
     }
   },
   // The 'feedItems' collection. Contains all of the feed items on our Facebook
@@ -42,7 +44,8 @@ var initialData = {
       "author": 1,
       // 01/24/16 3:48PM EST, converted to Unix Time
       // (# of milliseconds since Jan 1 1970 UTC)
-      // https://en.wikipedia.org/wiki/Unix_time "postDate": 1453668480000,
+      // https://en.wikipedia.org/wiki/Unix_time
+      "postDate": 1453668480000,
       "location": "Austin, TX",
       "contents": "ugh."
     },
@@ -51,7 +54,8 @@ var initialData = {
       {
         // The author of the comment.
         "author": 2,
-        // The contents of the comment. "contents": "hope everything is ok!",
+        // The contents of the comment.
+        "contents": "hope everything is ok!",
          // The date the comment was posted.
          // 01/24/16 22:00 EST
          "postDate": 1453690800000
