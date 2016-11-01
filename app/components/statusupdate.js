@@ -14,6 +14,7 @@ export default class StatusUpdate extends React.Component {
                 <a href="#">{this.props.author.fullName}</a>
                 <br />{this.props.postDate} · {this.props.location}· <span
                   className="glyphicon glyphicon-user"></span>
+                {this.props.children}
               </div>
             </div>
           </div>

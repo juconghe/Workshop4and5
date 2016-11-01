@@ -12,7 +12,7 @@ import CommentEntry from './commententry';
             )
           })}
           <li className = "media"> {
-            <CommentEntry />
+            <CommentEntry onPost={this.props.onPost}/>
           }
           </li>
         </ul>
